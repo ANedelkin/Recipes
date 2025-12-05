@@ -3,7 +3,8 @@
 Dictionary<string, string> recipes = new Dictionary<string, string>()
 {
     { "pizza", "Dough, Tomato sauce, Mozzarella, Pepperoni" },
-    { "spaghetti carbonara", "Spaghetti, Eggs, Parmesan, Pancetta, Black pepper" }
+    { "spaghetti carbonara", "Spaghetti, Eggs, Parmesan, Pancetta, Black pepper" },
+    { "lasagna", "Lasagna noodles, Ground beef, Tomato sauce, Ricotta, Mozzarella" },
 };
 Console.WriteLine("Enter recipe name to receive its ingredients. Type 'exit' to quit.");
 while (true)
