@@ -3,11 +3,12 @@
 Dictionary<string, string> recipes = new Dictionary<string, string>()
 {
     { "pizza", "Dough, Tomato sauce, Mozzarella, Pepperoni" },
+    { "spaghetti carbonara", "Spaghetti, Eggs, Parmesan, Pancetta, Black pepper" }
 };
 Console.WriteLine("Enter recipe name to receive its ingredients. Type 'exit' to quit.");
 while (true)
 {
-    string input = Console.ReadLine().ToLower();
+    string input = Console.ReadLine().Trim().ToLower();
     if(input == "exit")
     {
         return;
