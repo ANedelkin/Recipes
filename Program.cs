@@ -9,6 +9,7 @@ Dictionary<string, string> recipes = new Dictionary<string, string>()
     { "risotto", "Arborio rice, Chicken or vegetable broth, Parmesan, Butter" },
     { "pancakes", "Flour, Eggs, Milk, Baking powder, Butter, Sugar" },
     { "fried rice", "Cooked rice, Eggs, Vegetables, Soy sauce, Green onions" },
+    { "grilled salmon", "Salmon fillet, Olive oil, Lemon, Salt, Pepper" },
 };
 Console.WriteLine("Enter recipe name to receive its ingredients. Type 'exit' to quit.");
 while (true)
