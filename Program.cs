@@ -9,4 +9,8 @@ while (true)
     {
         return;
     }
+    if (!recipes.ContainsKey(input))
+    {
+        Console.WriteLine("No such recipe.");
+    }
 }
