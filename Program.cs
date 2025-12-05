@@ -7,6 +7,7 @@ Dictionary<string, string> recipes = new Dictionary<string, string>()
     { "lasagna", "Lasagna noodles, Ground beef, Tomato sauce, Ricotta, Mozzarella" },
     { "burger", "Beef patty, Burger bun, Cheese" },
     { "risotto", "Arborio rice, Chicken or vegetable broth, Parmesan, Butter" },
+    { "pancakes", "Flour, Eggs, Milk, Baking powder, Butter, Sugar" },
 };
 Console.WriteLine("Enter recipe name to receive its ingredients. Type 'exit' to quit.");
 while (true)
