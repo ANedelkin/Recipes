@@ -12,6 +12,11 @@ Console.WriteLine("Enter recipe name to receive its ingredients. Type 'exit' to 
 while (true)
 {
     string input = Console.ReadLine().Trim().ToLower();
+    if(string.IsNullOrWhiteSpace(input))
+    {
+        Console.WriteLine("Please enter a valid recipe name.");
+        continue;
+    }
     if(input == "exit")
     {
         return;
